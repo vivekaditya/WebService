@@ -7,9 +7,8 @@ Mako==0.9.1
 Markdown==2.4
 MarkupSafe==0.18
 Pillow==2.3.0
-Routes==2.0  
+Routes==2.0
 Werkzeug==0.12.2
-adium-theme-ubuntu==0.3.4
 apsw==3.8.2-r1
 apt-xapian-index==0.45
 apturl==0.4.1ubuntu4
