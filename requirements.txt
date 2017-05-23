@@ -6,7 +6,6 @@ Jinja2==2.7.2
 Mako==0.9.1
 Markdown==2.4
 MarkupSafe==0.18
-PAM==0.4.2
 Pillow==2.3.0
 Routes==2.0
 Twisted-Core==13.2.0
@@ -14,7 +13,6 @@ Twisted-Names==13.2.0
 Twisted-Web==13.2.0
 Werkzeug==0.12.2
 adium-theme-ubuntu==0.3.4
-## FIXME: could not find svn URL in dependency_links for this package:
 apsw==3.8.2-r1
 apt-xapian-index==0.45
 apturl==0.4.1ubuntu4
