@@ -18,22 +18,15 @@ app = Flask(__name__)
 # This is the path to the upload directory
 app.config['UPLOAD_FOLDER'] = 'uploads/'
 
-# This route will show a form to perform an AJAX request
-# jQuery is loaded to execute the request and update the
-# value of the operation
-@app.route('/')
-def index():
-    return render_template('index.html')
 
-
-@app.route('/image')
-def image():
+@app.route('/handleImage',methods=['POST'])
+def handleImage():
     ts = time.time()
-    image = request.args.get('img', '''R0lGODlhDwAPAKECAAAAzMzM/////wAAACwAAAAADwAPAAACIISPeQHsrZ5ModrLlN48CXF8m2iQ3YmmKqVlRtW4MLwWACH+H09wdGltaXplZCBieSBVbGVhZCBTbWFydFNhdmVyIQAAOw==''' )
+    image = request.data
     im = Image.open(BytesIO(base64.b64decode(image)))
     st = datetime.datetime.fromtimestamp(ts).strftime('%Y-%m-%d %H:%M:%S')
     im.convert('RGB').save(os.path.join(app.config['UPLOAD_FOLDER'],st+".jpg"))
-    return "works"
+    return '{"status":"OK"}'
 
 if __name__ == '__main__':
     app.run(
