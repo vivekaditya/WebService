@@ -22,7 +22,7 @@ app.config['UPLOAD_FOLDER'] = 'uploads/'
 @app.route('/handleImage',methods=['POST'])
 def handleImage():
     ts = time.time()
-    image = request.data
+    image = request.form['imageString']
     im = Image.open(BytesIO(base64.b64decode(image)))
     st = datetime.datetime.fromtimestamp(ts).strftime('%Y-%m-%d %H:%M:%S')
     im.convert('RGB').save(os.path.join(app.config['UPLOAD_FOLDER'],st+".jpg"))
@@ -31,6 +31,5 @@ def handleImage():
 if __name__ == '__main__':
     app.run(
         host="0.0.0.0",
-        port=int("8000"),
-        debug=True
+        port=int("8000")
     )
