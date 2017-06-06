@@ -1,0 +1,395 @@
+{
+	"messages": [{
+			"replyToId": "4JuoZhMrApt3gM17nYJ5J8|0000004",
+			"localTimestamp": "2017-05-31T17:34:41.356+00:00",
+			"inputHint": "ignoringInput",
+			"from": {
+				"name": "Exp Consumer APP",
+				"id": "ExpConsumerApp"
+			},
+			"id": "4JuoZhMrApt3gM17nYJ5J8|0000005",
+			"text": "Hi",
+			"type": "message",
+			"channelId": "user",
+			"conversation": {
+				"id": "4JuoZhMrApt3gM17nYJ5J8"
+			},
+			"timestamp": "2017-05-31T17:34:39.9563561Z"
+		},
+		{
+			"replyToId": "4JuoZhMrApt3gM17nYJ5J8|0000004",
+			"localTimestamp": "2017-05-31T17:34:41.356+00:00",
+			"inputHint": "ignoringInput",
+			"from": {
+				"name": "Exp Consumer APP",
+				"id": "ExpConsumerApp"
+			},
+			"id": "4JuoZhMrApt3gM17nYJ5J8|0000005",
+			"text": "Hi User",
+			"type": "message",
+			"channelId": "directline",
+			"conversation": {
+				"id": "4JuoZhMrApt3gM17nYJ5J8"
+			},
+			"timestamp": "2017-05-31T17:34:39.9563561Z"
+		},
+		{
+			"replyToId": "4JuoZhMrApt3gM17nYJ5J8|0000004",
+			"localTimestamp": "2017-05-31T17:34:41.356+00:00",
+			"inputHint": "ignoringInput",
+			"from": {
+				"name": "Exp Consumer APP",
+				"id": "ExpConsumerApp"
+			},
+			"id": "4JuoZhMrApt3gM17nYJ5J8|0000005",
+			"text": "I want some jeans",
+			"type": "message",
+			"channelId": "user",
+			"conversation": {
+				"id": "4JuoZhMrApt3gM17nYJ5J8"
+			},
+			"timestamp": "2017-05-31T17:34:39.9563561Z"
+		},
+		{
+			"attachments": [{
+					"contentType": "application/vnd.microsoft.card.hero",
+					"content": {
+						"images": [{
+							"url": "http://vision.xpresso.ai/imagem/recenter_noseg/?url=https://slimages.macysassets.com/is/image/MCY/products/3/optimized/2251113_fpx.tif&aspect=1.91x1"
+						}],
+						"buttons": [{
+								"type": "postBack",
+								"title": "Product Details",
+								"value": "VIEWITON::http://www.macys.com/shop/product/alfani-big-tall-straight-leg-colton-jeans?ID=2102827::WARN::Macys::2_2102827_0001"
+							},
+							{
+								"type": "postBack",
+								"title": "View Similar",
+								"value": "VIEWSIMILAR::2_2102827_0001::1"
+							},
+							{
+								"type": "postBack",
+								"title": "Save To Wishlist",
+								"value": "WISHLIST::2_2102827_0001::alfani big and tall straight-leg colton jeans::WISHLIST.SAVE.ITEM"
+							}
+						],
+						"subtitle": "Price: $ 39",
+						"title": "Alfani - Alfani Big and Tall Straight-leg Colton Jeans"
+					}
+				},
+				{
+					"contentType": "application/vnd.microsoft.card.hero",
+					"content": {
+						"images": [{
+							"url": "http://vision.xpresso.ai/imagem/recenter_noseg/?url=https://slimages.macysassets.com/is/image/MCY/products/5/optimized/8076575_fpx.tif&aspect=1.91x1"
+						}],
+						"buttons": [{
+								"type": "postBack",
+								"title": "Product Details",
+								"value": "VIEWITON::http://www.macys.com/shop/product/calvin-klein-jeans-mens-broken-beauty-slim-fit-stretch-jeans?ID=3144752::WARN::Macys::2_3144752_0001"
+							},
+							{
+								"type": "postBack",
+								"title": "View Similar",
+								"value": "VIEWSIMILAR::2_3144752_0001::1"
+							},
+							{
+								"type": "postBack",
+								"title": "Save To Wishlist",
+								"value": "WISHLIST::2_3144752_0001::calvin klein jeans men's broken beauty slim-fit stretch jeans ::WISHLIST.SAVE.ITEM"
+							}
+						],
+						"subtitle": "Price: $ 73",
+						"title": "Calvin Klein Jeans - Calvin Klein Jeans Men's Broken Beauty Slim-fit Stretch Jeans"
+					}
+				},
+				{
+					"contentType": "application/vnd.microsoft.card.hero",
+					"content": {
+						"images": [{
+							"url": "http://vision.xpresso.ai/imagem/recenter_noseg/?url=https://media.kohlsimg.com/is/image/kohls/2718370_Blue?wid=350&hei=350&op_sharpen=1&aspect=1.91x1"
+						}],
+						"buttons": [{
+								"type": "postBack",
+								"title": "Product Details",
+								"value": "VIEWITON::https://www.kohls.com/product/prd-2718370/mens-chaps-relaxed-fit-jeans.jsp::WARN::Kohls::kls_2718370_0001"
+							},
+							{
+								"type": "postBack",
+								"title": "View Similar",
+								"value": "VIEWSIMILAR::kls_2718370_0001::1"
+							},
+							{
+								"type": "postBack",
+								"title": "Save To Wishlist",
+								"value": "WISHLIST::kls_2718370_0001::men's chaps relaxed-fit jeans::WISHLIST.SAVE.ITEM"
+							}
+						],
+						"subtitle": "Price: $ 37",
+						"title": "Chaps - Men's Chaps Relaxed-fit Jeans"
+					}
+				},
+				{
+					"contentType": "application/vnd.microsoft.card.hero",
+					"content": {
+						"images": [{
+							"url": "http://vision.xpresso.ai/imagem/recenter_noseg/?url=https://slimages.macysassets.com/is/image/MCY/products/2/optimized/3757102_fpx.tif&aspect=1.91x1"
+						}],
+						"buttons": [{
+								"type": "postBack",
+								"title": "Product Details",
+								"value": "VIEWITON::http://www.macys.com/shop/product/calvin-klein-jeans-mens-sculpted-rinse-blue-jeans?ID=2892335::WARN::Macys::2_2892335_0001"
+							},
+							{
+								"type": "postBack",
+								"title": "View Similar",
+								"value": "VIEWSIMILAR::2_2892335_0001::1"
+							},
+							{
+								"type": "postBack",
+								"title": "Save To Wishlist",
+								"value": "WISHLIST::2_2892335_0001::calvin klein jeans men's sculpted rinse blue jeans ::WISHLIST.SAVE.ITEM"
+							}
+						],
+						"subtitle": "Price: $ 73",
+						"title": "Calvin Klein Jeans - Calvin Klein Jeans Men's Sculpted Rinse Blue Jeans"
+					}
+				},
+				{
+					"contentType": "application/vnd.microsoft.card.hero",
+					"content": {
+						"images": [{
+							"url": "http://vision.xpresso.ai/imagem/recenter_noseg/?url=https://media.kohlsimg.com/is/image/kohls/2367684&aspect=1.91x1"
+						}],
+						"buttons": [{
+								"type": "postBack",
+								"title": "Product Details",
+								"value": "VIEWITON::https://www.kohls.com/product/prd-2367684/mens-bulwark-fr-excel-fr-loose-fit-jeans.jsp::WARN::Kohls::kls_2367684_0001"
+							},
+							{
+								"type": "postBack",
+								"title": "View Similar",
+								"value": "VIEWSIMILAR::kls_2367684_0001::1"
+							},
+							{
+								"type": "postBack",
+								"title": "Save To Wishlist",
+								"value": "WISHLIST::kls_2367684_0001::men's bulwark fr excel fr loose-fit jeans::WISHLIST.SAVE.ITEM"
+							}
+						],
+						"subtitle": "Price: $ 71",
+						"title": "Bulwark Fr - Men's Bulwark Fr Excel Fr Loose-fit Jeans"
+					}
+				},
+				{
+					"contentType": "application/vnd.microsoft.card.hero",
+					"content": {
+						"images": [{
+							"url": "http://vision.xpresso.ai/imagem/recenter_noseg/?url=https://media.kohlsimg.com/is/image/kohls/1732474_Cobalt_Blue?wid=350&hei=350&op_sharpen=1&aspect=1.91x1"
+						}],
+						"buttons": [{
+								"type": "postBack",
+								"title": "Product Details",
+								"value": "VIEWITON::https://www.kohls.com/product/prd-1732474/levis-501-original-shrink-to-fit-jeans-men.jsp::WARN::Kohls::kls_1732474_0003"
+							},
+							{
+								"type": "postBack",
+								"title": "View Similar",
+								"value": "VIEWSIMILAR::kls_1732474_0003::1"
+							},
+							{
+								"type": "postBack",
+								"title": "Save To Wishlist",
+								"value": "WISHLIST::kls_1732474_0003::men's levi's® 501® original shrink-to-fit jeans::WISHLIST.SAVE.ITEM"
+							}
+						],
+						"subtitle": "Price: $ 69",
+						"title": "Levis - Men's Levi's® 501® Original Shrink-to-fit Jeans"
+					}
+				},
+				{
+					"contentType": "application/vnd.microsoft.card.hero",
+					"content": {
+						"images": [{
+							"url": "http://vision.xpresso.ai/imagem/recenter_noseg/?url=https://slimages.macysassets.com/is/image/MCY/products/5/optimized/3929505_fpx.tif&aspect=1.91x1"
+						}],
+						"buttons": [{
+								"type": "postBack",
+								"title": "Product Details",
+								"value": "VIEWITON::http://www.macys.com/shop/product/guess-mens-regular-fit-straight-leg-jeans?ID=2995178::WARN::Macys::2_2995178_0001"
+							},
+							{
+								"type": "postBack",
+								"title": "View Similar",
+								"value": "VIEWSIMILAR::2_2995178_0001::1"
+							},
+							{
+								"type": "postBack",
+								"title": "Save To Wishlist",
+								"value": "WISHLIST::2_2995178_0001::guess men's regular-fit straight-leg jeans ::WISHLIST.SAVE.ITEM"
+							}
+						],
+						"subtitle": "Price: $ 82",
+						"title": "Guess - Guess Men's Regular-fit Straight-leg Jeans"
+					}
+				},
+				{
+					"contentType": "application/vnd.microsoft.card.hero",
+					"content": {
+						"images": [{
+							"url": "http://vision.xpresso.ai/imagem/recenter_noseg/?url=https://slimages.macysassets.com/is/image/MCY/products/2/optimized/2292332_fpx.tif&aspect=1.91x1"
+						}],
+						"buttons": [{
+								"type": "postBack",
+								"title": "Product Details",
+								"value": "VIEWITON::http://www.macys.com/shop/product/lucky-brand-mens-221-original-straight-fit-jeans?ID=1642556::WARN::Macys::2_1642556_0002"
+							},
+							{
+								"type": "postBack",
+								"title": "View Similar",
+								"value": "VIEWSIMILAR::2_1642556_0002::1"
+							},
+							{
+								"type": "postBack",
+								"title": "Save To Wishlist",
+								"value": "WISHLIST::2_1642556_0002::lucky brand men's 221 original straight fit jeans::WISHLIST.SAVE.ITEM"
+							}
+						],
+						"subtitle": "Price: $ 99",
+						"title": "Lucky Brand - Lucky Brand Men's 221 Original Straight Fit Jeans"
+					}
+				},
+				{
+					"contentType": "application/vnd.microsoft.card.hero",
+					"content": {
+						"images": [{
+							"url": "http://vision.xpresso.ai/imagem/recenter_noseg/?url=https://slimages.macysassets.com/is/image/MCY/products/4/optimized/8071074_fpx.tif&aspect=1.91x1"
+						}],
+						"buttons": [{
+								"type": "postBack",
+								"title": "Product Details",
+								"value": "VIEWITON::http://www.macys.com/shop/product/boss-mens-regular-classic-fit-dark-wash-jeans?ID=4232694::WARN::Macys::2_4232694_0001"
+							},
+							{
+								"type": "postBack",
+								"title": "View Similar",
+								"value": "VIEWSIMILAR::2_4232694_0001::1"
+							},
+							{
+								"type": "postBack",
+								"title": "Save To Wishlist",
+								"value": "WISHLIST::2_4232694_0001::boss men's regular/classic-fit dark wash jeans::WISHLIST.SAVE.ITEM"
+							}
+						],
+						"subtitle": "Price: $ 160",
+						"title": "Hugo Boss - Boss Men's Regular/classic-fit Dark Wash Jeans"
+					}
+				},
+				{
+					"contentType": "application/vnd.microsoft.card.hero",
+					"content": {
+						"images": [{
+							"url": "http://vision.xpresso.ai/imagem/recenter_noseg/?url=https://slimages.macysassets.com/is/image/MCY/products/4/optimized/1450024_fpx.tif&aspect=1.91x1"
+						}],
+						"buttons": [{
+								"type": "postBack",
+								"title": "Product Details",
+								"value": "VIEWITON::http://www.macys.com/shop/product/alfani-big-tall-deker-coated-jeans?ID=1155932::WARN::Macys::2_1155932_0001"
+							},
+							{
+								"type": "postBack",
+								"title": "View Similar",
+								"value": "VIEWSIMILAR::2_1155932_0001::1"
+							},
+							{
+								"type": "postBack",
+								"title": "Save To Wishlist",
+								"value": "WISHLIST::2_1155932_0001::alfani big and tall deker coated jeans::WISHLIST.SAVE.ITEM"
+							}
+						],
+						"subtitle": "Price: $ 39",
+						"title": "Alfani - Alfani Big and Tall Deker Coated Jeans"
+					}
+				}
+			],
+			"replyToId": "4JuoZhMrApt3gM17nYJ5J8|0000004",
+			"attachmentLayout": "carousel",
+			"localTimestamp": "2017-05-31T17:34:41.67+00:00",
+			"inputHint": "ignoringInput",
+			"from": {
+				"name": "Exp Consumer APP",
+				"id": "ExpConsumerApp"
+			},
+			"id": "4JuoZhMrApt3gM17nYJ5J8|0000006",
+			"type": "message",
+			"channelId": "directline",
+			"conversation": {
+				"id": "4JuoZhMrApt3gM17nYJ5J8"
+			},
+			"timestamp": "2017-05-31T17:34:42.2047136Z"
+		},
+		{
+			"attachments": [{
+				"contentType": "application/vnd.microsoft.card.hero",
+				"content": {
+					"buttons": [{
+							"type": "imBack",
+							"title": "Show More",
+							"value": "Show More"
+						},
+						{
+							"type": "imBack",
+							"title": "Add Filters",
+							"value": "Add Filters"
+						},
+						{
+							"type": "imBack",
+							"title": "Edit Filters",
+							"value": "Edit Filters"
+						},
+						{
+							"type": "imBack",
+							"title": "Shop 4 me",
+							"value": "Shop 4 me"
+						},
+						{
+							"type": "imBack",
+							"title": "New Query",
+							"value": "New Query"
+						},
+						{
+							"type": "imBack",
+							"title": "Back to Search",
+							"value": "Back to Search"
+						},
+						{
+							"type": "imBack",
+							"title": "Start Over",
+							"value": "Start Over"
+						},
+						{
+							"type": "imBack",
+							"title": "Help",
+							"value": "Help"
+						}
+					]
+				}
+			}],
+			"replyToId": "4JuoZhMrApt3gM17nYJ5J8|0000004",
+			"localTimestamp": "2017-05-31T17:34:42.016+00:00",
+			"inputHint": "expectingInput",
+			"from": {
+				"name": "Exp Consumer APP",
+				"id": "ExpConsumerApp"
+			},
+			"id": "4JuoZhMrApt3gM17nYJ5J8|0000007",
+			"text": "You can choose to add filters to refine your search results.",
+			"type": "message",
+			"channelId": "directline",
+			"conversation": {
+				"id": "4JuoZhMrApt3gM17nYJ5J8"
+			},
+			"timestamp": "2017-05-31T17:34:42.5376142Z"
+		}
+	]
+}
